@@ -1,5 +1,12 @@
 {
+  "description": "Play around React App",
+  "name": "react-playaround-app",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "email": "diegsan20@gmail.com",
+    "name": "Diogo Santana"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
