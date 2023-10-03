@@ -7,7 +7,7 @@ import html from 'remark-html';
 /**
  * note that below directory requires to be changed 
  * to its own folder within root, due to [id].js 
- * attempting to read itself as a file when looking for invalid date.
+ * attempting to read itself as a file when looking for date.
  */
 
 const postsDirectory = path.join(process.cwd(), '/posts');
