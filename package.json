@@ -10,16 +10,32 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "jest_test": "jest --verbose ../unit"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.22.15",
     "date-fns": "2.30.0",
+    "enzyme": "^3.11.0",
     "gray-matter": "4.0.3",
+    "jest": "29.7",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-test-renderer": "^18.2.0",
     "remark": "15.0.1",
     "remark-html": "16.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx|mjs)$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "spec/reports"
   },
   "engines": {
     "node": ">=18"
