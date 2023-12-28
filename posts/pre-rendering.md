@@ -1,5 +1,5 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'Next.js Practice - Two Forms of Pre-rendering'
 date: '2023-11-01'
 ---
 
